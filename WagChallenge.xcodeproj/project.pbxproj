@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		015E703FC2AE1CE9577EE926 /* libPods-WagChallengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FA5EC861575C57A2E57327 /* libPods-WagChallengeTests.a */; };
 		034A83E020E31C5E00950670 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 034A83DF20E31C5D00950670 /* AppDelegate.m */; };
-		034A83E320E31C5E00950670 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034A83E220E31C5E00950670 /* ViewController.m */; };
 		034A83E620E31C5E00950670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034A83E420E31C5E00950670 /* Main.storyboard */; };
 		034A83E820E31C5F00950670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034A83E720E31C5F00950670 /* Assets.xcassets */; };
 		034A83EB20E31C5F00950670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034A83E920E31C5F00950670 /* LaunchScreen.storyboard */; };
 		034A83EE20E31C5F00950670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 034A83ED20E31C5F00950670 /* main.m */; };
 		034A83F820E31C5F00950670 /* WagChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 034A83F720E31C5F00950670 /* WagChallengeTests.m */; };
 		034A840320E31C5F00950670 /* WagChallengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 034A840220E31C5F00950670 /* WagChallengeUITests.m */; };
+		034A841920E31FA700950670 /* CHLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 034A841820E31FA700950670 /* CHLUser.m */; };
+		034A841F20E324EF00950670 /* GHBJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 034A841E20E324EF00950670 /* GHBJSONParser.m */; };
+		034A842220E3297300950670 /* CHLStackExchangeAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 034A842120E3297300950670 /* CHLStackExchangeAPI.m */; };
+		034A842720E32D9B00950670 /* NSError+CHL.m in Sources */ = {isa = PBXBuildFile; fileRef = 034A842620E32D9B00950670 /* NSError+CHL.m */; };
+		034A842B20E332B600950670 /* CHLUsersListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 034A842A20E332B600950670 /* CHLUsersListView.m */; };
+		034A843020E3395C00950670 /* UIViewController+CHL.m in Sources */ = {isa = PBXBuildFile; fileRef = 034A842F20E3395C00950670 /* UIViewController+CHL.m */; };
+		034A843520E339E300950670 /* CHLUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 034A843420E339E300950670 /* CHLUserCell.m */; };
+		034A843920E33B4700950670 /* UITableView+CHL.m in Sources */ = {isa = PBXBuildFile; fileRef = 034A843820E33B4700950670 /* UITableView+CHL.m */; };
+		034A843D20E345B200950670 /* CHLLoadingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 034A843C20E345B200950670 /* CHLLoadingCell.m */; };
+		034A844120E3500F00950670 /* UIView+CHL.m in Sources */ = {isa = PBXBuildFile; fileRef = 034A844020E3500F00950670 /* UIView+CHL.m */; };
+		034A844920E356F900950670 /* CHLFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 034A844820E356F900950670 /* CHLFileManager.m */; };
+		20DDF5430BE28A7BA7B3E1ED /* libPods-WagChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B21BC039157E6A221234760C /* libPods-WagChallenge.a */; };
+		8C5FA2E8A5ECECD1E32D2AA6 /* libPods-WagChallengeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62632EF711CDF227944C880B /* libPods-WagChallengeUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +51,6 @@
 		034A83DB20E31C5D00950670 /* WagChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WagChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		034A83DE20E31C5D00950670 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		034A83DF20E31C5D00950670 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		034A83E120E31C5E00950670 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		034A83E220E31C5E00950670 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		034A83E520E31C5E00950670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		034A83E720E31C5F00950670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		034A83EA20E31C5F00950670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +62,38 @@
 		034A83FE20E31C5F00950670 /* WagChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WagChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		034A840220E31C5F00950670 /* WagChallengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WagChallengeUITests.m; sourceTree = "<group>"; };
 		034A840420E31C5F00950670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		034A841720E31FA700950670 /* CHLUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHLUser.h; sourceTree = "<group>"; };
+		034A841820E31FA700950670 /* CHLUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHLUser.m; sourceTree = "<group>"; };
+		034A841D20E324EE00950670 /* GHBJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GHBJSONParser.h; path = "../../../../../Project Files/GHBJSONParser.h"; sourceTree = "<group>"; };
+		034A841E20E324EF00950670 /* GHBJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GHBJSONParser.m; path = "../../../../../Project Files/GHBJSONParser.m"; sourceTree = "<group>"; };
+		034A842020E3297300950670 /* CHLStackExchangeAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHLStackExchangeAPI.h; sourceTree = "<group>"; };
+		034A842120E3297300950670 /* CHLStackExchangeAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHLStackExchangeAPI.m; sourceTree = "<group>"; };
+		034A842520E32D9B00950670 /* NSError+CHL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSError+CHL.h"; sourceTree = "<group>"; };
+		034A842620E32D9B00950670 /* NSError+CHL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSError+CHL.m"; sourceTree = "<group>"; };
+		034A842920E332B600950670 /* CHLUsersListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHLUsersListView.h; sourceTree = "<group>"; };
+		034A842A20E332B600950670 /* CHLUsersListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHLUsersListView.m; sourceTree = "<group>"; };
+		034A842C20E334B400950670 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		034A842E20E3395C00950670 /* UIViewController+CHL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CHL.h"; sourceTree = "<group>"; };
+		034A842F20E3395C00950670 /* UIViewController+CHL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CHL.m"; sourceTree = "<group>"; };
+		034A843320E339E300950670 /* CHLUserCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHLUserCell.h; sourceTree = "<group>"; };
+		034A843420E339E300950670 /* CHLUserCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHLUserCell.m; sourceTree = "<group>"; };
+		034A843720E33B4700950670 /* UITableView+CHL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+CHL.h"; sourceTree = "<group>"; };
+		034A843820E33B4700950670 /* UITableView+CHL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CHL.m"; sourceTree = "<group>"; };
+		034A843B20E345B200950670 /* CHLLoadingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHLLoadingCell.h; sourceTree = "<group>"; };
+		034A843C20E345B200950670 /* CHLLoadingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHLLoadingCell.m; sourceTree = "<group>"; };
+		034A843F20E3500F00950670 /* UIView+CHL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CHL.h"; sourceTree = "<group>"; };
+		034A844020E3500F00950670 /* UIView+CHL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CHL.m"; sourceTree = "<group>"; };
+		034A844720E356F900950670 /* CHLFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHLFileManager.h; sourceTree = "<group>"; };
+		034A844820E356F900950670 /* CHLFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHLFileManager.m; sourceTree = "<group>"; };
+		3179C69281F42CD375E15A31 /* Pods-WagChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WagChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-WagChallenge/Pods-WagChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		3D90C6E001CDDEA53FA699D4 /* Pods-WagChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WagChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WagChallengeTests/Pods-WagChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		55A65332705FBED599279C5D /* Pods-WagChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WagChallengeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WagChallengeUITests/Pods-WagChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		62632EF711CDF227944C880B /* libPods-WagChallengeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WagChallengeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BBDB01A0EAFDBA761584FCC /* Pods-WagChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WagChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WagChallengeTests/Pods-WagChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFD9614B1DDA87DFA98274B0 /* Pods-WagChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WagChallengeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WagChallengeUITests/Pods-WagChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B21BC039157E6A221234760C /* libPods-WagChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WagChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9FA5EC861575C57A2E57327 /* libPods-WagChallengeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WagChallengeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D716C7AE9FDE06EE2FFFBE74 /* Pods-WagChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WagChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WagChallenge/Pods-WagChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20DDF5430BE28A7BA7B3E1ED /* libPods-WagChallenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				015E703FC2AE1CE9577EE926 /* libPods-WagChallengeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C5FA2E8A5ECECD1E32D2AA6 /* libPods-WagChallengeUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +131,8 @@
 				034A83F620E31C5F00950670 /* WagChallengeTests */,
 				034A840120E31C5F00950670 /* WagChallengeUITests */,
 				034A83DC20E31C5D00950670 /* Products */,
+				A42507F39A6B3EB95DDED568 /* Pods */,
+				79B97A833B24E787D667BD08 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +149,13 @@
 		034A83DD20E31C5D00950670 /* WagChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				034A83DE20E31C5D00950670 /* AppDelegate.h */,
-				034A83DF20E31C5D00950670 /* AppDelegate.m */,
-				034A83E120E31C5E00950670 /* ViewController.h */,
-				034A83E220E31C5E00950670 /* ViewController.m */,
-				034A83E420E31C5E00950670 /* Main.storyboard */,
-				034A83E720E31C5F00950670 /* Assets.xcassets */,
-				034A83E920E31C5F00950670 /* LaunchScreen.storyboard */,
-				034A83EC20E31C5F00950670 /* Info.plist */,
-				034A83ED20E31C5F00950670 /* main.m */,
+				034A841020E31C9300950670 /* App Delegate */,
+				034A841120E31CAA00950670 /* Globals */,
+				034A841220E31CB800950670 /* Model */,
+				034A841320E31CBC00950670 /* View */,
+				034A841420E31CBF00950670 /* Controller */,
+				034A841620E31CE500950670 /* Utilities */,
+				034A841520E31CE000950670 /* Assets */,
 			);
 			path = WagChallenge;
 			sourceTree = "<group>";
@@ -132,6 +178,213 @@
 			path = WagChallengeUITests;
 			sourceTree = "<group>";
 		};
+		034A841020E31C9300950670 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				034A83DE20E31C5D00950670 /* AppDelegate.h */,
+				034A83DF20E31C5D00950670 /* AppDelegate.m */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		034A841120E31CAA00950670 /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				034A83EC20E31C5F00950670 /* Info.plist */,
+				034A842C20E334B400950670 /* Constants.h */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		034A841220E31CB800950670 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				034A841A20E320C400950670 /* User */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		034A841320E31CBC00950670 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				034A83E420E31C5E00950670 /* Main.storyboard */,
+				034A83E920E31C5F00950670 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		034A841420E31CBF00950670 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				034A842820E3329D00950670 /* Users List */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		034A841520E31CE000950670 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				034A83ED20E31C5F00950670 /* main.m */,
+				034A83E720E31C5F00950670 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		034A841620E31CE500950670 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				034A841B20E322E600950670 /* Stack Excahnge API */,
+				034A844620E356D400950670 /* File Manager */,
+				034A841C20E324E000950670 /* JSON Parser */,
+				034A842320E32D7C00950670 /* Categories */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		034A841A20E320C400950670 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				034A841720E31FA700950670 /* CHLUser.h */,
+				034A841820E31FA700950670 /* CHLUser.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		034A841B20E322E600950670 /* Stack Excahnge API */ = {
+			isa = PBXGroup;
+			children = (
+				034A842020E3297300950670 /* CHLStackExchangeAPI.h */,
+				034A842120E3297300950670 /* CHLStackExchangeAPI.m */,
+			);
+			path = "Stack Excahnge API";
+			sourceTree = "<group>";
+		};
+		034A841C20E324E000950670 /* JSON Parser */ = {
+			isa = PBXGroup;
+			children = (
+				034A841D20E324EE00950670 /* GHBJSONParser.h */,
+				034A841E20E324EF00950670 /* GHBJSONParser.m */,
+			);
+			path = "JSON Parser";
+			sourceTree = "<group>";
+		};
+		034A842320E32D7C00950670 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				034A843E20E34FF700950670 /* UIView + CHL */,
+				034A843620E33B3300950670 /* UITableView + CHL */,
+				034A842D20E3394700950670 /* UIViewController + CHL */,
+				034A842420E32D8600950670 /* NSError + CHL */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		034A842420E32D8600950670 /* NSError + CHL */ = {
+			isa = PBXGroup;
+			children = (
+				034A842520E32D9B00950670 /* NSError+CHL.h */,
+				034A842620E32D9B00950670 /* NSError+CHL.m */,
+			);
+			path = "NSError + CHL";
+			sourceTree = "<group>";
+		};
+		034A842820E3329D00950670 /* Users List */ = {
+			isa = PBXGroup;
+			children = (
+				034A843120E339C800950670 /* List View */,
+				034A843220E339CE00950670 /* User Cell */,
+				034A843A20E3459F00950670 /* Loading Cell */,
+			);
+			path = "Users List";
+			sourceTree = "<group>";
+		};
+		034A842D20E3394700950670 /* UIViewController + CHL */ = {
+			isa = PBXGroup;
+			children = (
+				034A842E20E3395C00950670 /* UIViewController+CHL.h */,
+				034A842F20E3395C00950670 /* UIViewController+CHL.m */,
+			);
+			path = "UIViewController + CHL";
+			sourceTree = "<group>";
+		};
+		034A843120E339C800950670 /* List View */ = {
+			isa = PBXGroup;
+			children = (
+				034A842920E332B600950670 /* CHLUsersListView.h */,
+				034A842A20E332B600950670 /* CHLUsersListView.m */,
+			);
+			path = "List View";
+			sourceTree = "<group>";
+		};
+		034A843220E339CE00950670 /* User Cell */ = {
+			isa = PBXGroup;
+			children = (
+				034A843320E339E300950670 /* CHLUserCell.h */,
+				034A843420E339E300950670 /* CHLUserCell.m */,
+			);
+			path = "User Cell";
+			sourceTree = "<group>";
+		};
+		034A843620E33B3300950670 /* UITableView + CHL */ = {
+			isa = PBXGroup;
+			children = (
+				034A843720E33B4700950670 /* UITableView+CHL.h */,
+				034A843820E33B4700950670 /* UITableView+CHL.m */,
+			);
+			path = "UITableView + CHL";
+			sourceTree = "<group>";
+		};
+		034A843A20E3459F00950670 /* Loading Cell */ = {
+			isa = PBXGroup;
+			children = (
+				034A843B20E345B200950670 /* CHLLoadingCell.h */,
+				034A843C20E345B200950670 /* CHLLoadingCell.m */,
+			);
+			path = "Loading Cell";
+			sourceTree = "<group>";
+		};
+		034A843E20E34FF700950670 /* UIView + CHL */ = {
+			isa = PBXGroup;
+			children = (
+				034A843F20E3500F00950670 /* UIView+CHL.h */,
+				034A844020E3500F00950670 /* UIView+CHL.m */,
+			);
+			path = "UIView + CHL";
+			sourceTree = "<group>";
+		};
+		034A844620E356D400950670 /* File Manager */ = {
+			isa = PBXGroup;
+			children = (
+				034A844720E356F900950670 /* CHLFileManager.h */,
+				034A844820E356F900950670 /* CHLFileManager.m */,
+			);
+			name = "File Manager";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		79B97A833B24E787D667BD08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B21BC039157E6A221234760C /* libPods-WagChallenge.a */,
+				B9FA5EC861575C57A2E57327 /* libPods-WagChallengeTests.a */,
+				62632EF711CDF227944C880B /* libPods-WagChallengeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A42507F39A6B3EB95DDED568 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D716C7AE9FDE06EE2FFFBE74 /* Pods-WagChallenge.debug.xcconfig */,
+				3179C69281F42CD375E15A31 /* Pods-WagChallenge.release.xcconfig */,
+				8BBDB01A0EAFDBA761584FCC /* Pods-WagChallengeTests.debug.xcconfig */,
+				3D90C6E001CDDEA53FA699D4 /* Pods-WagChallengeTests.release.xcconfig */,
+				AFD9614B1DDA87DFA98274B0 /* Pods-WagChallengeUITests.debug.xcconfig */,
+				55A65332705FBED599279C5D /* Pods-WagChallengeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +392,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 034A840720E31C5F00950670 /* Build configuration list for PBXNativeTarget "WagChallenge" */;
 			buildPhases = (
+				452FAB6F896CCA1ADF82A23D /* [CP] Check Pods Manifest.lock */,
 				034A83D720E31C5D00950670 /* Sources */,
 				034A83D820E31C5D00950670 /* Frameworks */,
 				034A83D920E31C5D00950670 /* Resources */,
+				49D35EBD329DFA138AFD847E /* [CP] Embed Pods Frameworks */,
+				62A4A705D2A642C2A9CBBB95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +412,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 034A840A20E31C5F00950670 /* Build configuration list for PBXNativeTarget "WagChallengeTests" */;
 			buildPhases = (
+				DBE82468EF38B14C4296690B /* [CP] Check Pods Manifest.lock */,
 				034A83EF20E31C5F00950670 /* Sources */,
 				034A83F020E31C5F00950670 /* Frameworks */,
 				034A83F120E31C5F00950670 /* Resources */,
+				E03C5F84355F41E7D378E19C /* [CP] Embed Pods Frameworks */,
+				C6B225D803014DDFBDFC612D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +433,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 034A840D20E31C5F00950670 /* Build configuration list for PBXNativeTarget "WagChallengeUITests" */;
 			buildPhases = (
+				BA047E206AF68AA0BA224678 /* [CP] Check Pods Manifest.lock */,
 				034A83FA20E31C5F00950670 /* Sources */,
 				034A83FB20E31C5F00950670 /* Frameworks */,
 				034A83FC20E31C5F00950670 /* Resources */,
+				DDBFE7276C533E00EFB164D3 /* [CP] Embed Pods Frameworks */,
+				A2A304B3E1DF299C85B704C0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,14 +519,171 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		452FAB6F896CCA1ADF82A23D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WagChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49D35EBD329DFA138AFD847E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WagChallenge/Pods-WagChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62A4A705D2A642C2A9CBBB95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WagChallenge/Pods-WagChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2A304B3E1DF299C85B704C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WagChallengeUITests/Pods-WagChallengeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA047E206AF68AA0BA224678 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WagChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6B225D803014DDFBDFC612D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WagChallengeTests/Pods-WagChallengeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBE82468EF38B14C4296690B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WagChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDBFE7276C533E00EFB164D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WagChallengeUITests/Pods-WagChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E03C5F84355F41E7D378E19C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WagChallengeTests/Pods-WagChallengeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		034A83D720E31C5D00950670 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				034A83E320E31C5E00950670 /* ViewController.m in Sources */,
+				034A843020E3395C00950670 /* UIViewController+CHL.m in Sources */,
+				034A843520E339E300950670 /* CHLUserCell.m in Sources */,
 				034A83EE20E31C5F00950670 /* main.m in Sources */,
+				034A842B20E332B600950670 /* CHLUsersListView.m in Sources */,
+				034A844920E356F900950670 /* CHLFileManager.m in Sources */,
 				034A83E020E31C5E00950670 /* AppDelegate.m in Sources */,
+				034A843920E33B4700950670 /* UITableView+CHL.m in Sources */,
+				034A844120E3500F00950670 /* UIView+CHL.m in Sources */,
+				034A842220E3297300950670 /* CHLStackExchangeAPI.m in Sources */,
+				034A841F20E324EF00950670 /* GHBJSONParser.m in Sources */,
+				034A843D20E345B200950670 /* CHLLoadingCell.m in Sources */,
+				034A841920E31FA700950670 /* CHLUser.m in Sources */,
+				034A842720E32D9B00950670 /* NSError+CHL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,40 +850,45 @@
 		};
 		034A840820E31C5F00950670 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D716C7AE9FDE06EE2FFFBE74 /* Pods-WagChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2YGDKQVDC6;
-				INFOPLIST_FILE = WagChallenge/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WagChallenge/Globals/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = CHL.WagChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		034A840920E31C5F00950670 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3179C69281F42CD375E15A31 /* Pods-WagChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2YGDKQVDC6;
-				INFOPLIST_FILE = WagChallenge/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WagChallenge/Globals/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = CHL.WagChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		034A840B20E31C5F00950670 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BBDB01A0EAFDBA761584FCC /* Pods-WagChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +908,7 @@
 		};
 		034A840C20E31C5F00950670 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D90C6E001CDDEA53FA699D4 /* Pods-WagChallengeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +928,7 @@
 		};
 		034A840E20E31C5F00950670 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD9614B1DDA87DFA98274B0 /* Pods-WagChallengeUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2YGDKQVDC6;
@@ -521,6 +947,7 @@
 		};
 		034A840F20E31C5F00950670 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55A65332705FBED599279C5D /* Pods-WagChallengeUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2YGDKQVDC6;
