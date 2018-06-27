@@ -26,7 +26,7 @@ typedef void (^StackExchangeRequestCallback)(id object, NSError *error);
 /**
  * Retrieves users from a specific site.
  * @param site     NSString  - The site to grab the users from (i.e. stackoverflow)
- * @param page     NSInteger - The page of users to grab (offset).
+ * @param page     NSInteger - The page of users to grab.
  * @param pageSize NSInteger - The number of users to retrieve.
  * @param callback StackExchangeRequestCallback - The block to execute when the process completes.
  * If successful, the callback block will pass an array of CHLUser objects.  If there was an error, the error

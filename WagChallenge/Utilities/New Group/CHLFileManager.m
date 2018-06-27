@@ -31,7 +31,7 @@
         return;
     }
     
-    // Download the image from the URL
+    // If not already available locally, download the image from the URL
     [self retrieveFileAtURL:imageURL andSaveLocally:saveLocally withCallback:callback];
 }
 
@@ -75,6 +75,9 @@
     NSData *pngData = UIImagePNGRepresentation(image);
     [pngData writeToFile:localPath atomically:YES];
 }
+
+
+#pragma mark - Helper File Path Methods
 
 - (NSString *)fileNameForImageAtURL:(NSURL *)imageURL {
     return [imageURL lastPathComponent];

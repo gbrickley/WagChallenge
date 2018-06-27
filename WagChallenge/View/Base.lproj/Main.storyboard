@@ -65,7 +65,6 @@
                                                                 <constraint firstAttribute="height" constant="25" id="Hxb-Sp-v6m"/>
                                                                 <constraint firstItem="nzu-ax-WnJ" firstAttribute="leading" secondItem="MLe-vN-CxI" secondAttribute="leading" constant="5" id="IQ1-HD-SLj"/>
                                                                 <constraint firstItem="nzu-ax-WnJ" firstAttribute="centerY" secondItem="MLe-vN-CxI" secondAttribute="centerY" id="cG7-f8-tsd"/>
-                                                                <constraint firstItem="nzu-ax-WnJ" firstAttribute="centerX" secondItem="MLe-vN-CxI" secondAttribute="centerX" id="eG6-Zh-GIe"/>
                                                                 <constraint firstAttribute="width" constant="80" id="hej-G8-a5r"/>
                                                                 <constraint firstAttribute="trailing" secondItem="nzu-ax-WnJ" secondAttribute="trailing" constant="5" id="mmi-Yf-AUy"/>
                                                             </constraints>
@@ -85,7 +84,6 @@
                                                                 <constraint firstItem="IFu-UM-8Mg" firstAttribute="centerY" secondItem="FeL-f9-6LL" secondAttribute="centerY" id="FB1-dq-hDT"/>
                                                                 <constraint firstItem="IFu-UM-8Mg" firstAttribute="leading" secondItem="FeL-f9-6LL" secondAttribute="leading" constant="5" id="Uiu-dw-Cwr"/>
                                                                 <constraint firstAttribute="trailing" secondItem="IFu-UM-8Mg" secondAttribute="trailing" constant="5" id="e48-zK-iHv"/>
-                                                                <constraint firstItem="IFu-UM-8Mg" firstAttribute="centerX" secondItem="FeL-f9-6LL" secondAttribute="centerX" id="gjd-g2-7qD"/>
                                                             </constraints>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NN8-s5-LwC">
@@ -102,7 +100,6 @@
                                                             <constraints>
                                                                 <constraint firstItem="vR0-7l-OOi" firstAttribute="leading" secondItem="NN8-s5-LwC" secondAttribute="leading" constant="5" id="9XM-f4-kcp"/>
                                                                 <constraint firstItem="vR0-7l-OOi" firstAttribute="centerY" secondItem="NN8-s5-LwC" secondAttribute="centerY" id="DwJ-ee-EP6"/>
-                                                                <constraint firstItem="vR0-7l-OOi" firstAttribute="centerX" secondItem="NN8-s5-LwC" secondAttribute="centerX" id="GxD-XC-57K"/>
                                                                 <constraint firstAttribute="trailing" secondItem="vR0-7l-OOi" secondAttribute="trailing" constant="5" id="jRb-B5-AfL"/>
                                                             </constraints>
                                                         </view>
@@ -120,7 +117,7 @@
                                                         <constraint firstItem="NN8-s5-LwC" firstAttribute="leading" secondItem="FeL-f9-6LL" secondAttribute="trailing" constant="10" id="d7i-L8-Zyy"/>
                                                         <constraint firstItem="FeL-f9-6LL" firstAttribute="leading" secondItem="MLe-vN-CxI" secondAttribute="trailing" constant="10" id="hFj-op-Ebm"/>
                                                         <constraint firstItem="FeL-f9-6LL" firstAttribute="centerY" secondItem="MLe-vN-CxI" secondAttribute="centerY" id="inN-4W-d1w"/>
-                                                        <constraint firstItem="MLe-vN-CxI" firstAttribute="width" relation="lessThanOrEqual" secondItem="baD-w6-UgA" secondAttribute="width" multiplier="1/3" id="qc8-5Q-FFC"/>
+                                                        <constraint firstItem="MLe-vN-CxI" firstAttribute="width" relation="lessThanOrEqual" secondItem="baD-w6-UgA" secondAttribute="width" multiplier="9/30" id="qc8-5Q-FFC"/>
                                                         <constraint firstItem="o1E-Ev-4GL" firstAttribute="leading" secondItem="baD-w6-UgA" secondAttribute="leading" id="sCJ-ZH-xBM"/>
                                                         <constraint firstItem="NN8-s5-LwC" firstAttribute="height" secondItem="FeL-f9-6LL" secondAttribute="height" id="uk5-fQ-gUY"/>
                                                         <constraint firstItem="NN8-s5-LwC" firstAttribute="centerY" secondItem="FeL-f9-6LL" secondAttribute="centerY" id="umx-HW-nma"/>
@@ -158,12 +155,12 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Z1P-hr-n4Z">
-                                                    <rect key="frame" x="177.5" y="19" width="20" height="20"/>
+                                                    <rect key="frame" x="177.5" y="30" width="20" height="20"/>
                                                 </activityIndicatorView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="Z1P-hr-n4Z" firstAttribute="centerX" secondItem="7y4-aO-V4v" secondAttribute="centerX" id="EhZ-IC-V6C"/>
-                                                <constraint firstItem="Z1P-hr-n4Z" firstAttribute="centerY" secondItem="7y4-aO-V4v" secondAttribute="centerY" id="FBm-4Y-KAA"/>
+                                                <constraint firstItem="Z1P-hr-n4Z" firstAttribute="centerY" secondItem="7y4-aO-V4v" secondAttribute="centerY" id="l2h-17-imv"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
